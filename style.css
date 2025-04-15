@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    height: 80px;
+}
+
+nav ul li a {
+    font-weight: 600;
+    transition: 0.4;
+}
+
+nav ul li a.active {
+    color: #198754 !important;
+}
+
+nav ul li a:hover {
+    color: #198754 !important;
+}
+
+.hero {
+    min-height: calc(100dvh - 80px);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.hero-link {
+    width: 92px;
+    font-weight: 600;
+}
