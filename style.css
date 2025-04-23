@@ -6,6 +6,10 @@ a {
     text-decoration: none !important;
 }
 
+ul {
+    list-style: none;
+}
+
 header {
     height: 80px;
 }
@@ -35,4 +39,23 @@ nav ul li a:hover {
 .hero-link {
     width: 92px;
     font-weight: 600;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #198754 !important;
+    transition: 0.4;
+}
+
+footer ul li a {
+    color: rgba(255, 255, 255, .75);
 }
