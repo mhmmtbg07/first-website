@@ -2,12 +2,32 @@
     box-sizing: border-box;
 }
 
+body::selection {
+    background-color: #198754;
+    color: rgba(255, 255, 255, .9);
+}
+
 a {
     text-decoration: none !important;
 }
 
 ul {
     list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control,
+.form-select {
+    border-width: 2px;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: unset;
 }
 
 header {
@@ -45,6 +65,16 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+}
+
+.partnership form div input:focus,
+.partnership form div select:focus,
+.partnership form div textarea:focus {   
+    border-color:#198754 !important;
+}
+
+form .form-check-input:checked {
+    background-color: #198754;
 }
 
 footer a {
