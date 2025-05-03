@@ -61,6 +61,10 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+.services {
+    height: 300px;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
