@@ -169,6 +169,20 @@ nav ul li a:hover {
     color: rgba(0, 0, 0, .75);
 }
 
+.about {
+    letter-spacing: 1px;
+}
+
+.about a:hover { 
+    background-color: #198754;
+    color: #fff !important;
+    transition: 0.2s;
+}
+
+.about-link {
+    text-decoration: underline #198754 !important;
+}
+
 
 footer a {
     color: #fff;
