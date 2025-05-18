@@ -25,27 +25,20 @@ p {
     padding: 0;
 }
 
-form div input:focus,
-form div select:focus,
-form div textarea:focus {   
-    border-color:#198754 !important;
+.services {
+    height: 300px;
 }
 
-form .form-check-input:checked {
-    background-color: #198754;
+.underline {
+    text-decoration: underline #198754 !important;
+    color: #198754;
 }
 
-.form-control,
-.form-select {
-    border-width: 2px;
+.order-list {
+    list-style: disc !important;
 }
 
-.form-control:focus,
-.form-select:focus,
-.form-check-input:focus {
-    box-shadow: unset;
-}
-
+/* Navbar - Header */
 header {
     height: 80px;
 }
@@ -63,6 +56,7 @@ nav ul li a:hover {
     color: #198754 !important;
 }
 
+/* Home Page */
 .hero {
     min-height: calc(100dvh - 80px);
 }
@@ -77,10 +71,7 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-.services {
-    height: 300px;
-}
-
+/* Services */
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -136,6 +127,29 @@ nav ul li a:hover {
     padding: 2rem;
 }
 
+/* Contact */
+form div input:focus,
+form div select:focus,
+form div textarea:focus {   
+    border-color:#198754 !important;
+}
+
+form .form-check-input:checked {
+    background-color: #198754;
+}
+
+.form-control,
+.form-select {
+    border-width: 2px;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: unset;
+}
+
+/* Blog Page */
 .articles {
     display: grid;
     grid-template-columns:  repeat(3,1fr);
@@ -169,21 +183,22 @@ nav ul li a:hover {
     color: rgba(0, 0, 0, .75);
 }
 
-.about {
-    letter-spacing: 1px;
+/* About Page */
+.partners img {
+    transition: ease-out .2s;
+    filter: grayscale(10);
 }
 
-.about a:hover { 
-    background-color: #198754;
-    color: #fff !important;
-    transition: 0.2s;
+.partners img:hover {
+    filter: unset;
 }
 
-.about-link {
-    text-decoration: underline #198754 !important;
+/* Legal Page */ 
+.legal div h3 {
+    color: rgba(0, 0, 0, .7);
 }
 
-
+/* Footer */
 footer a {
     color: #fff;
 }
